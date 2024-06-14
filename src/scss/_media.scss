@@ -1,0 +1,145 @@
+@import 'variable.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    //<!-- client start -->
+    .client {
+        .client-button {
+            button {
+                padding: 11px 21px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    //<!-- client end -->
+
+    //<!-- testimonials start -->
+    .testimonials {
+        .slider-content {
+            .client-title {
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    //<!-- testimonials end -->
+
+
+    //<!-- portfolio start -->
+    .portfolio {
+        .portfolio-content {
+            .portfolio-control {
+                margin-left: -6%;
+
+                button {
+                    padding: 5px 8px;
+                    font-size: 13px;
+                }
+            }
+
+            .morework {
+                button {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    //<!-- portfolio end -->
+
+    // header start
+    header {
+        .banner {
+            h1 {
+                margin-top: 150px;
+                font-size: 45px;
+            }
+
+            button {
+                font-size: 18px;
+
+            }
+        }
+    }
+
+    // header end
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    //<!-- client start -->
+    .client {
+        .client-button {
+            button {
+                padding: 11px 21px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    //<!-- client end -->
+
+
+
+    // header start
+    header {
+        .banner {
+            h1 {
+                margin-top: 150px;
+                font-size: 45px;
+            }
+
+            button {
+                font-size: 18px;
+
+            }
+        }
+    }
+
+    // header end
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    //<!-- testimonials start -->
+    .testimonials {
+        .slider-content {
+            .client-title {
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    //<!-- testimonials end -->
+
+    // header start
+    header {
+        .banner {
+            h1 {
+                margin-top: 150px;
+                font-size: 45px;
+            }
+
+            button {
+                font-size: 18px;
+
+            }
+        }
+    }
+
+    // header end
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
